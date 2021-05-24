@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin:0;
+   
+}
+
+
+
+body {
+    background:url('https://images.unsplash.com/photo-1594987057733-1fb3fe5707c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1653&q=80') no-repeat;
+    background-size: cover;
+    height:100vh;
+    background-position: left;
+  
+
+}
+
+
+.header {
+   
+    width:100%;
+    background-color: rgba(0,0,0, .2);
+
+}
+
+.header ul {
+    text-align: center;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+
+.header ul li a {
+    font-family: 'Source Sans Pro' ,sans-serif;
+    display:block;
+    text-decoration:none;
+    font-size:20px;
+    color: rgba(179, 240, 255, 0.993);
+    text-transform: uppercase;
+    letter-spacing:2px;
+    font-weight:600;
+    padding:40px;
+    transition: all ease 0.5s;
+
+
+}
+
+.header ul li a:hover {
+    background-color:green;
+}
+
+
+
+
+
+}
